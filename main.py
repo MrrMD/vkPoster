@@ -9,6 +9,7 @@ ACCESS_TOKEN = 'vk1.a.Oq1QERzZ6-be2HQqN88Uk3yVcQIo5Pnf_ZovIZOeydTDYmfHg_J93yCw49
 
 #https://oauth.vk.com/authorize?client_id=51789300&display=page&redirect_uri=https://vk.com/public217355336&scope=friends,wall,photos&response_type=token&v=5.154&state=123456
 
+
 def read_data_from_file(file_path):
     with open(file_path, 'r') as file:
         lines = file.readlines()
